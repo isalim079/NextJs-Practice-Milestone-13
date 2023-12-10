@@ -1,6 +1,14 @@
 import Link from "next/link";
 import React from "react";
 
+export async function generateStaticParams() {
+
+    const res = await fetch("http://localhost:4008/posts"); // statically load all data of from the server
+    const post = await res.json()
+
+    return [{ id: "1"}, { id: "2" }]
+}
+
 const DetailPage = async ({ params }) => {
     // console.log(params?.id);
 
@@ -21,7 +29,7 @@ const DetailPage = async ({ params }) => {
                     <Link href="/posts">
                         {" "}
                         <button className="btn btn-accent bg-cyan-600 text-white mt-4">
-                            See More
+                            Back
                         </button>
                     </Link>
                 </div>
