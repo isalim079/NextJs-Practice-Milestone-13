@@ -4,9 +4,15 @@ import React from "react";
 export async function generateStaticParams() {
 
     const res = await fetch("http://localhost:4008/posts"); // statically load all data of from the server
-    const post = await res.json()
-
-    return [{ id: "1"}, { id: "2" }]
+    const posts = await res.json()
+    const ids = posts.slice(0,3).map( post => {     // I loaded 1st 3 data statically from the server
+        return {
+            id: post?.id + "", 
+        }
+    })
+    // console.log(ids);
+    
+    return ids
 }
 
 const DetailPage = async ({ params }) => {
