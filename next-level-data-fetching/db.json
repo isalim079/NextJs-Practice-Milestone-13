@@ -1,0 +1,40 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "Introduction to Programming",
+            "description": "A beginner's guide to programming languages, concepts, and problem-solving techniques. Learn the basics of coding and start your journey into the world of software development.",
+            "likes_count": 1500
+        },
+        {
+            "id": 2,
+            "title": "Healthy Eating Habits",
+            "description": "Explore the benefits of a balanced diet and discover tips for maintaining a healthy lifestyle. Learn about nutrition, meal planning, and simple yet effective changes for better health.",
+            "likes_count": 2300
+        },
+        {
+            "id": 3,
+            "title": "Travel Photography Tips",
+            "description": "Capture breathtaking moments during your travels with these photography tips. From composition techniques to choosing the right gear, elevate your travel photography skills.",
+            "likes_count": 1800
+        },
+        {
+            "id": 4,
+            "title": "Effective Time Management",
+            "description": "Master the art of managing time efficiently. Discover strategies to prioritize tasks, minimize procrastination, and achieve better productivity in your daily life.",
+            "likes_count": 2700
+        },
+        {
+            "id": 5,
+            "title": "Mindfulness Meditation Practices",
+            "description": "Improve mental well-being with mindfulness meditation practices. Learn various meditation techniques to reduce stress, increase focus, and enhance overall mindfulness.",
+            "likes_count": 3200
+        },
+        {
+            "id": 6,
+            "title": "DIY Home Décor Ideas",
+            "description": "Get inspired by creative DIY home décor ideas. Transform your living space with budget-friendly and innovative decoration projects for a personalized touch.",
+            "likes_count": 2000
+        }
+    ]
+}
